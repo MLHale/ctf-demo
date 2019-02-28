@@ -4,7 +4,7 @@
  * @Email:  mlhale@unomaha.edu
  * @Filename: environment.js
  * @Last modified by:   mlhale
- * @Last modified time: 2019-02-28T16:49:15-06:00
+ * @Last modified time: 2019-02-28T16:57:57-06:00
  * @Copyright: Copyright (C) 2018 Matthew L. Hale
  */
 
@@ -18,7 +18,7 @@ module.exports = function(environment) {
     environment,
     rootURL: 'ctf-demo/dist/',
     hostURL: '/',
-    locationType: 'auto',
+    locationType: 'hash',
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
