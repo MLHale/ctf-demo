@@ -211,7 +211,7 @@
 
   const Router = Ember.Router.extend({
     location: _environment.default.locationType,
-    rootURL: _environment.default.rootURL
+    rootURL: _environment.default.hostURL
   });
 
   Router.map(function () {});
@@ -262,7 +262,7 @@ catch(err) {
 
 ;
           if (!runningTests) {
-            require("ctf-demo/app")["default"].create({"name":"ctf-demo","version":"0.0.0+e42befa6"});
+            require("ctf-demo/app")["default"].create({"name":"ctf-demo","version":"0.0.0+98b98c23"});
           }
         
 //# sourceMappingURL=ctf-demo.map

@@ -1,10 +1,23 @@
+/**
+ * @Author: Matthew Hale <mlhale>
+ * @Date:   2019-02-28T16:42:46-06:00
+ * @Email:  mlhale@unomaha.edu
+ * @Filename: environment.js
+ * @Last modified by:   mlhale
+ * @Last modified time: 2019-02-28T16:49:15-06:00
+ * @Copyright: Copyright (C) 2018 Matthew L. Hale
+ */
+
+
+
 'use strict';
 
 module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'ctf-demo',
     environment,
-    rootURL: '/',
+    rootURL: 'ctf-demo/dist/',
+    hostURL: '/',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
